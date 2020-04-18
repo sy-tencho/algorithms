@@ -8,6 +8,7 @@ end
 
 $memo = []
 
+# Top down solution, memoization
 def top(n)
   if n <= 2
     1
@@ -20,6 +21,7 @@ def top(n)
   end
 end
 
+# Bottom up solution
 def bottom(n)
   if n <= 2
     1
