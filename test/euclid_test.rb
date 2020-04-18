@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require './lib/euclid'
+require_relative '../lib/euclid'
 
 class EuclidTest < Minitest::Test
   def test_euclid
